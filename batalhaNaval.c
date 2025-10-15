@@ -34,7 +34,19 @@ int main() {
     for (int j = 0; j < tamanho_navio2; j++) {
         tabuleiro[navio2_linha][navio2_coluna_inicial + j] = 3;
     }
+    
+    // Exibe as coordenadas dos navios
+    printf("=== COORDENADAS DOS NAVIOS ===\n");
 
+    printf("\nNavio 1 (Vertical):\n");
+    for (int i = 0; i < tamanho_navio1; i++) {
+        printf("Linha: %d, Coluna: %d\n", navio1_linha_inicial + i, navio1_coluna);
+    }
+
+    printf("\nNavio 2 (Horizontal):\n");
+    for (int j = 0; j < tamanho_navio2; j++) {
+        printf("Linha: %d, Coluna: %d\n", navio2_linha, navio2_coluna_inicial + j);
+    }
 
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
     // Sugestão: Expanda o tabuleiro para uma matriz 10x10.
