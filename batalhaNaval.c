@@ -49,7 +49,7 @@ int main() {
     }
 
  // Exibe o tabuleiro completo
-    printf("\n=== TABULEIRO 5x5 ===\n");
+    printf("\n=== TABULEIRO 10x10 ===\n");
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
             printf("%d ", tabuleiro[i][j]);
@@ -87,5 +87,4 @@ int main() {
     // 1 1 1 1 1
     // 0 0 1 0 0
 
-    return 0;
-}
+
