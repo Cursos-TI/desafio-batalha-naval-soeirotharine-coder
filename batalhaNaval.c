@@ -20,6 +20,11 @@ int main() {
     int navio1_coluna = 2;
     int tamanho_navio1 = 3;
 
+    // Navio 2 - Horizontal (linha 6, colunas 4 a 6)
+    int navio2_linha = 6;
+    int navio2_coluna_inicial = 4;
+    int tamanho_navio2 = 3;
+
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
     // Sugestão: Expanda o tabuleiro para uma matriz 10x10.
     // Sugestão: Posicione quatro navios no tabuleiro, incluindo dois na diagonal.
