@@ -13,7 +13,13 @@ int main() {
     // Tabuleiro 10x10 inicializado com zeros (0 = vazio)
     
     int tabuleiro[10][10] = {0};
-    
+
+    // Posicionamento manual dos navios
+    // Navio 1 - Vertical (coluna 2, linhas 1 a 3)
+    int navio1_linha_inicial = 1;
+    int navio1_coluna = 2;
+    int tamanho_navio1 = 3;
+
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
     // Sugestão: Expanda o tabuleiro para uma matriz 10x10.
     // Sugestão: Posicione quatro navios no tabuleiro, incluindo dois na diagonal.
