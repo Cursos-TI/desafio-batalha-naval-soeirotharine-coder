@@ -85,7 +85,18 @@ int main() {
         tabuleiroAventureiro[i + 2][8 - i] = 3;
     }
 
+printf("\n==============================\n");
+    printf("🏅 NÍVEL AVENTUREIRO\n");
+    printf("==============================\n");
+    printf("Tabuleiro 10x10 com 4 navios (horizontal, vertical e 2 diagonais):\n\n");
 
+    // --- Exibe o tabuleiro aventureiro ---
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            printf("%d ", tabuleiroAventureiro[i][j]);
+        }
+        printf("\n");
+    }
 
     
     // Nível Mestre - Habilidades Especiais com Matrizes
