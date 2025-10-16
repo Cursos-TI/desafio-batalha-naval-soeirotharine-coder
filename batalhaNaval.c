@@ -98,8 +98,7 @@ printf("\n==============================\n");
         printf("\n");
     }
 
-    
-    // Nível Mestre - Habilidades Especiais com Matrizes
+        // Nível Mestre - Habilidades Especiais com Matrizes
     // Sugestão: Crie matrizes para representar habilidades especiais como cone, cruz, e octaedro.
     // Sugestão: Utilize estruturas de repetição aninhadas para preencher as áreas afetadas por essas habilidades no tabuleiro.
     // Sugestão: Exiba o tabuleiro com as áreas afetadas, utilizando 0 para áreas não afetadas e 1 para áreas atingidas.
@@ -119,5 +118,25 @@ printf("\n==============================\n");
     // 0 0 1 0 0
     // 1 1 1 1 1
     // 0 0 1 0 0
+printf("\n==============================\n");
+    printf("🏅 NÍVEL MESTRE\n");
+    printf("==============================\n");
 
+    int cone[3][5] = {
+        {0, 0, 1, 0, 0},
+        {0, 1, 1, 1, 0},
+        {1, 1, 1, 1, 1}
+    };
+
+    int cruz[3][5] = {
+        {0, 0, 1, 0, 0},
+        {1, 1, 1, 1, 1},
+        {0, 0, 1, 0, 0}
+    };
+
+    int octaedro[3][5] = {
+        {0, 0, 1, 0, 0},
+        {0, 1, 1, 1, 0},
+        {0, 0, 1, 0, 0}
+    };
 
