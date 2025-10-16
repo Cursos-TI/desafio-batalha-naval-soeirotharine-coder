@@ -75,6 +75,15 @@ int main() {
     for (int i = 0; i < 3; i++) {
         tabuleiroAventureiro[i + 4][7] = 3;
     }
+// --- Navio 3: diagonal principal ---
+    for (int i = 0; i < 3; i++) {
+        tabuleiroAventureiro[i + 6][i + 1] = 3;
+    }
+
+    // --- Navio 4: diagonal secundária ---
+    for (int i = 0; i < 3; i++) {
+        tabuleiroAventureiro[i + 2][8 - i] = 3;
+    }
 
 
 
